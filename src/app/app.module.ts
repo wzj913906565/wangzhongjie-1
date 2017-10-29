@@ -7,12 +7,11 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 import { appRouters } from './app.routers';
-import { HomeComponent } from './home/home.component';
+// import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

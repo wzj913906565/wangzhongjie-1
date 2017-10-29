@@ -1,6 +1,6 @@
-import { RouterModule } from '@angular/router';
+import {RouterModule} from '@angular/router';
 //首页
-import { HomeComponent } from './home/home.component';
+// import { HomeComponent } from './home/home.component';
 
 export const appRouters = [
   {
@@ -10,7 +10,7 @@ export const appRouters = [
   },
   {
     path: 'home',
-    component: HomeComponent
-    // loadChildren:'./home/home.module#HomeModule'
+    // component: HomeComponent
+    loadChildren: './home/home.module#HomeModule'
   }
-]
+];
